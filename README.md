@@ -206,6 +206,20 @@ fclose($file);
 cat /etc/ppp/chap-secrets
 ```
 
+### GINING PERMITION
+
+Reading 
+
+```bash
+sudo chmod a+r /etc/ppp/chap-secrets
+```
+
+Writting 
+
+```bash
+sudo chmod a+w /etc/ppp/chap-secrets
+```
+
 
 If you find this project useful, please consider making a donation. Any funds donated will be used to help further development on this project.
 
